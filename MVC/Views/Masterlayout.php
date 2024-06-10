@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="http://localhost/thi%20gi%e1%bb%afa%20h%e1%bb%8dc%20k%c3%ac%20%c4%91%e1%bb%81%204/Public/Css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://localhost/thi%20gi%e1%bb%afa%20h%e1%bb%8dc%20k%c3%ac%20%c4%91%e1%bb%81%204/Public/Css/dinhdang7.css">
-    <script src="http://localhost/thi%20gi%e1%bb%afa%20h%e1%bb%8dc%20k%c3%ac%20%c4%91%e1%bb%81%204/Public/Js/jquery-3.3.1.slim.min.js"></script>
-    <script src="http://localhost/thi%20gi%e1%bb%afa%20h%e1%bb%8dc%20k%c3%ac%20%c4%91%e1%bb%81%204/Public/Js/popper.min.js"></script>
-    <script src="http://localhost/thi%20gi%e1%bb%afa%20h%e1%bb%8dc%20k%c3%ac%20%c4%91%e1%bb%81%204/Public/Js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?php echo URLROOT ?>/Public/Css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo URLROOT ?>/Public/Css/dinhdang7.css">
+    <script src="<?php echo URLROOT ?>/Public/Js/jquery-3.3.1.slim.min.js"></script>
+    <script src="<?php echo URLROOT ?>/Public/Js/popper.min.js"></script>
+    <script src="<?php echo URLROOT ?>/Public/Js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="container-fluid">
         <div class="header1">
-            <img src="http://localhost/thi%20gi%e1%bb%afa%20h%e1%bb%8dc%20k%c3%ac%20%c4%91%e1%bb%81%204/Public/Pictures/logo.png" alt="">
+            <img src="<?php echo URLROOT ?>/Public/Pictures/logo.png" alt="">
         </div>
         <div class="menu1" style="background: green; height:58px; font-size:18px; width:100%;">
             <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded">
                 <ul class="navbar-nav mr-autoavbar">
                     <li class="nav-item">
-                        <a style="color: white;" class="nav-link" href="http://localhost/thi%20gi%e1%bb%afa%20h%e1%bb%8dc%20k%c3%ac%20%c4%91%e1%bb%81%204/formchinh_ctrl">Danh Sách Khoa</a>
+                        <a style="color: white;" class="nav-link" href="<?php echo URLROOT ?>/formchinh_ctrl">Danh Sách Khoa</a>
                     </li>
                 </ul>
       </nav>
